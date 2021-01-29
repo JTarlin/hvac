@@ -1,0 +1,13 @@
+//import partials
+@import "../../Partials/colors";
+@import "../../Partials/fonts";
+@import "../../Partials/mediaqueries";
+
+.username {
+    margin-right: 20px;
+    font-family: $font-stack;
+
+    @include tablet {
+        margin-right: 40px;
+    }
+}

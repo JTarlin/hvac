@@ -1,3 +1,5 @@
+//import components
+import Username from "../Username/Username";
 
 //import styling
 import "./Header.scss";
@@ -5,10 +7,10 @@ import "./Header.scss";
 export default function Header() {
 
     return (
-        <header>
-            <div>
-                <div>hvac.ai</div>
-                
+        <header className="header">
+            <div className="header__content">
+                <div className="header__title">hvac.ai</div>
+                <Username />
             </div>
         </header>
     )
