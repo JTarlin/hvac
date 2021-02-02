@@ -1,0 +1,46 @@
+//import partials
+@import "../../Partials/colors";
+@import "../../Partials/fonts";
+@import "../../Partials/mediaqueries";
+
+.footer {
+    width: 100%;
+    background-color: $black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__container {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        height: 100px;
+        border-top: 1px solid $highlight2;
+    }
+
+    &__block {        
+        border-right: 1px solid $highlight2;
+        width: 33%;
+        color: $white;
+        font-family: $font-stack;
+        padding-top: 10px;
+
+        &:last-of-type {
+            border-right: none;
+        }
+
+    }
+
+    &__copyright {
+        margin: 20px 0;
+        border-top: 1px solid $highlight2;
+        width: 90%;
+        height: 30px;
+        color: $white;
+        font-family: $font-stack;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
