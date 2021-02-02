@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import "./Hero.scss";
 
 //image import 
-import skyline from "../../Assets/Toronto-skyline.jpg";
+import skyline from "../../../Assets/Toronto-skyline.jpg";
 
 export default function Hero() {
     return (

@@ -8,6 +8,7 @@ import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import SignIn from "./Components/SignIn/SignIn";
 import Dashboard from "./Components/Dashboard/Dashboard";
+import Footer from "./Components/Footer/Footer";
 
 import './App.css';
 
